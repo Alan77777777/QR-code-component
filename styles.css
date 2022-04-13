@@ -39,6 +39,7 @@ body {
 /* content */
 
 h1 {
+    color: var(--Dark-blue);
     margin-top: 25px;
     text-align: center;
     font-weight: 700;
@@ -79,4 +80,10 @@ img {
 
 .content {
     margin: 14px;
+}
+
+@media(min-width:800px) {
+    .container {
+        margin-top: 10%;
+    }
 }
